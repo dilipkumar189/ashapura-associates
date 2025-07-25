@@ -511,6 +511,7 @@ const AccountingLandingPage: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
+                  onClick={handleSubmit}
                   className="w-full bg-gradient-to-r from-blue-600 to-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-700 hover:to-green-700 transition-all transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:transform-none"
                 >
                   {isSubmitting ? 'Sending...' : 'Send Message'}
